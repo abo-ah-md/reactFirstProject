@@ -1,0 +1,147 @@
+body{
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(35, 37, 44);
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:10px;
+    width: 80%;
+  
+    background-color:rgb(26, 27, 33);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+img{
+    max-width: 100%;
+  
+}
+
+
+
+
+.container--img{
+ 
+}
+
+
+h1{
+    color: rgb(255, 255, 255);
+}
+
+h3{
+    color: rgb(243, 191, 153);
+font-weight: 300;}
+h4{
+   color: rgb(176, 176, 179);
+   font-weight: 300
+}
+
+
+
+.btn--social--container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.btn--email{
+    justify-content: center;
+   align-items: center;
+    border: 0px;
+    max-width: 100%;
+    min-width: 5.2rem;
+    width: 7rem;
+    height: 34px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+background-color: #FFFFFF;
+text-align: center;
+padding-left:16px;
+
+}
+
+.btn--linkedin{
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    color: #ffffff;
+    text-align: end;
+    border: 0px;
+    min-width: 5.2rem;
+    width: 7rem;
+    height: 34px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    background-color: #5093E2;
+position: relative;
+}
+
+.linkedin--img{
+    position: relative;
+right: 39%;
+
+}
+
+.email--img{
+    right: 35%;
+
+    position: relative;
+  
+}
+p{
+    padding: 10px;
+    color: #FFFFFF;
+font-weight: 100;
+font-size: 0.8rem;
+}
+
+h2{
+    padding: 10px;
+
+    color: #ffffff;
+
+}
+
+
+.footer--container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 50px;
+    background-color: #161619;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    
+}
+
+.footer--container img {
+    width: 13%;
+}
+.intrduce--container{
+    text-align: center;
+}
